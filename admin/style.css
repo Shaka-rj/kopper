@@ -1,0 +1,17 @@
+.inputs {
+    text-align: left;
+}
+
+input, textarea, select {
+    display: block;
+    margin: 20px;
+    font-size: 16px;
+}
+
+table {
+    border-collapse: collapse;
+}
+table td {
+    border: 1px solid #000;
+    padding: 4px;
+}

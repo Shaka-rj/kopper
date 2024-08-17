@@ -1,0 +1,124 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+.main {
+    text-align: center;
+    margin: auto;
+}
+
+.logo {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.logo img {
+    width: 50%;
+    max-width: 200px;
+}
+
+.logo h1 {
+    font-weight: 1000;
+    font-size: 43px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.logo p {
+    margin-top: 0;
+}
+
+.links {
+    text-align: center;
+}
+
+.links h3 {
+    color: #1084bf;
+}
+
+.links a, .mahsulot a {
+    text-decoration: none;
+    display: block;
+    border: 2px solid #1084bf;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 6px;
+    font-size: 18px;
+    color: #1084bf;
+    font-weight: 500;
+    background-color: #fff;
+}
+
+.mahsulotlar {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.mahsulot {
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+    margin: 30px 10px;
+    padding: 0;
+    border: 1px solid #1084bf;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: inline-block;
+}
+
+.mahsulot img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.header {
+    text-align: center;
+}
+.dorirasm {
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+    margin: 10px;
+    padding: 0;
+    border: 1px solid #1084bf;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.article {
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #e2e2e2;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.vebsite {
+    text-align: center;
+    color: #1084bf;
+}
+
+@media only screen and (max-width: 600px) {
+    .mahsulot {
+        display: block;
+        margin: 30px auto;
+        width: 100vw;
+        max-width: 90vw;
+        font-size: 17px;
+    }
+    
+    .article {
+        margin: 20px -6px;
+    }
+}
